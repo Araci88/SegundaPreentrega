@@ -1,0 +1,74 @@
+.div_logo{
+    width: 25%;
+    height: 250px;
+    align-items: center;
+}
+.img_logo{
+    width: 100%;
+    height: 100%;
+}
+.navbar-brand{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.titulo_principal{
+    font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+    text-shadow: 0px 10px 7px rgb(253, 238, 23);
+    color: black;
+    text-align: center;   
+}
+.p_titulo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    text-shadow: 0px 7px 7px rgb(253, 238, 23);
+    color: black;
+    text-align: center;
+}
+.div_cards{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 430px 470px;
+    grid-template-areas: "f1 f2"
+                         "f3 f4";
+    justify-content: center;
+    align-content: center;
+    row-gap: 30px;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card_uno{
+    grid-area: f1;
+}
+.card_dos{
+    grid-area: f2;
+}
+.card_tres{
+    grid-area: f3;
+}
+.card_cuatro{
+    grid-area: f4;
+}
+.footer{
+    height: 120px;
+}
+.p_redes{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.div_redes{
+    display: flex;
+    justify-content: space-around;
+}
+.link_redes{
+    text-decoration: none;
+}
+.bi{
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
